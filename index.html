@@ -36,14 +36,21 @@
 					</header>
 
 				<!-- Nav -->
-					<nav id="nav" class="d-flex justify-content-center p-0">
+					<nav id="nav">
 						<!-- <ul class="links"> -->
 							<!-- <li class="active"><a href="index.html">About Me</a></li> -->
 							<!-- <li><a href="generic.html">Generic Page</a></li>
 							<li><a href="elements.html">Elements Reference</a></li> -->
 						<!-- </ul> -->
-						<ul class=" icons">
-							<li><a href="https://www.linkedin.com/in/bailey-hill/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<ul class="links">
+
+							<li><a href="#about-me">About Me</a></li>
+							<li><a href="#applications">Applications</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/bailey-hill/" class="icon brands fa-linkedin"><span
+										class="label">LinkedIn</span></a></li>
 							<li><a href="https://github.com/bailey-hill" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
@@ -55,7 +62,7 @@
 							<article class=" p-5 post featured">
 								<header class="major">
 									<!-- <span class="date"></span> -->
-									<h2>About Me
+									<h2><a id="about-me">About Me</a>
 									</h2>
 									<p>I'm a full stack web developer working with JavaScript, HTML, CSS, React, and PostgreSQL. <br/>
 										I live in San Diego, and I like to surf, skateboard, and play video games. <br/>
@@ -68,13 +75,13 @@
 								</ul> -->
 
 							</article>
-							<h2 class="w-100 text-center d-flex justify-content-center p-4">Applications Developed</h2>
+							<h2 class="w-100 text-center d-flex justify-content-center p-4" id="applications">Applications Developed</h2>
 						<!-- Posts -->
 							<section class="posts">
 
 								<article>
 									<header>
-										<span class="date">Live | GitHub</span>
+										<span class="date"><a href="http://memory-match.baileyohill.com/">Live</a> | <a href="https://github.com/bailey-hill/memory-match">GitHub</a></span>
 										<h2><a href="http://memory-match.baileyohill.com/">League of Legends<br />
 										Memory Match</a></h2>
 									</header>
@@ -90,7 +97,27 @@
 								</article>
 								<article>
 									<header>
-										<span class="date">Live | GitHub</span>
+									<span class="date"><a href="http://concert-caster.baileyohill.com/">Live</a> | <a
+												href="https://github.com/bailey-hill/concert-caster">GitHub</a></span>
+										<h2><a href="http://concert-caster.baileyohill.com/">Concert<br />
+												Caster</a></h2>
+											</header>
+												<a href="http://concert-caster.baileyohill.com/" class="image fit"><img src="./images/concert-caster.gif"
+														alt="" /></a>
+												<p>A weather forecasting app for festival planning.
+											Implemented AJAX calls to multiple APIs, including Google Maps, OpenWeatherMap, and Ticketmaster, to modify and
+										gather
+													data in JSON depending on zip code input.
+													Dynamically generated table items using JavaScript and jQuery that display a weather forecast and event details
+											Styled the user interface with HTML5, CSS3, Grid and Flexbox and utilized Bootstrap4 components to enhance user
+													experience.</p>
+													<ul class="actions special">
+												<li><a href="http://concert-caster.baileyohill.com/" class="button">demo</a></li>
+												</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date"><a href="http://catalog.baileyohill.com/">Live</a> | <a href="https://github.com/bailey-hill/wicked-sales-js">GitHub</a></span>
 										<h2><a href="http://catalog.baileyohill.com/">Shopping<br />
 										Catalog</a></h2>
 									</header>
@@ -106,38 +133,27 @@
 										<li><a href="http://catalog.baileyohill.com/" class="button">Demo</a></li>
 									</ul>
 								</article>
+
 								<article>
 									<header>
-										<span class="date">Live | GitHub</span>
-										<h2><a href="http://concert-caster.baileyohill.com/">Concert<br />
-										Caster</a></h2>
+										<span class="date"><a href="https://art-spread.baileyohill.com/">Live</a> | <a href="https://github.com/j-wenning/art-spread">GitHub</a></span>
+										<h2><a href="https://art-spread.baileyohill.com/">Art Spread</a></h2>
 									</header>
-									<a href="http://concert-caster.baileyohill.com/" class="image fit"><img src="./images/concert-caster.gif" alt="" /></a>
-									<p>A weather forecasting app for festival planning.
-									Implemented AJAX calls to multiple APIs, including Google Maps, OpenWeatherMap, and Ticketmaster, to modify and gather
-									data in JSON depending on zip code input.
-									Dynamically generated table items using JavaScript and jQuery that display a weather forecast and event details
-									Styled the user interface with HTML5, CSS3, Grid and Flexbox and utilized Bootstrap4 components to enhance user
-									experience.</p>
+									<a href="https://art-spread.baileyohill.com/" class="image fit"><img src="./images/art-spread gif.gif" alt="" /></a>
+									<p class="d-flex flex-column align-items-center">
+									<i>Under Construction</i>
+									<br/>
+									An app for artists who want one platform to manage, host, and create social media posts for their work.
+									 Stored account information, posts, and profile information from Reddit in PostgreSQL database.
+										Front-end written in React.js for user can access the login page, the dashboard page, the view post page, the settings page, the create post page, the
+										switch profile page, and the modify profile page.
+									 Dynamically generated created posts, pending posts, and post information (including likes and comments)
+									  depending on user's activity.
+									 Implemented AJAX calls to reddit API.
+									Styled UI using CSS3, Grid and Bootstrap4.
+								</p>
 									<ul class="actions special">
-										<li><a href="http://concert-caster.baileyohill.com/" class="button">demo</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">GitHub</span>
-										<h2><a href="https://github.com/bailey-hill/sgt-react">Student<br />
-										Grade Table</a></h2>
-									</header>
-									<a href="https://github.com/bailey-hill/sgt-react" class="image fit"><img src="./images/sgt-react.gif" alt="" /></a>
-									<p>An easy-to-use grading app for teachers that populates a grading table and configures grade averages (including a
-									delete-grade feature) a grading table and configures grade.
-									Implemented multiple AJAX calls to a custom API for input JSON data storage.
-									Developed a dynamically generated grade table with JavaScript and jQuery that displays inputted name, grade, and course
-									as well as an average grade which live updates based on user input.
-									Styled dynamic grade table and form input with HTML5, CSS3, Grid and Bootstrap4.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/bailey-hill/sgt-react" class="button">GitHub</a></li>
+										<li><a href="https://art-spread.baileyohill.com/" class="button">Demo</a></li>
 									</ul>
 								</article>
 								<!-- <article>
@@ -186,7 +202,7 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-						<section>
+						<!-- <section>
 							<form method="post" action="#">
 								<div class="fields">
 									<div class="field">
@@ -206,19 +222,19 @@
 									<li><input type="submit" value="Send Message" /></li>
 								</ul>
 							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
+						</section> -->
+						<!-- <section class="split contact"> -->
+							<section class="alt" id="contact">
 								<h3>Location</h3>
 								<p>San Diego, CA</p>
 							</section>
 							<section>
 								<h3>Phone</h3>
-								<p><a href="#">(865) 228-9135</a></p>
+								<p>(865) 228-9135</p>
 							</section>
 							<section>
 								<h3>Email</h3>
-								<p><a href="#">baileyowenhill@gmail.com</a></p>
+								<p>baileyowenhill@gmail.com</p>
 							</section>
 							<section>
 								<h3>Social</h3>
@@ -228,7 +244,7 @@
 									<li><a href="https://github.com/bailey-hill" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</section>
-						</section>
+						<!-- </section> -->
 					</footer>
 
 				<!-- Copyright -->
